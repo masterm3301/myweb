@@ -1,4 +1,4 @@
-{
+window.BLOG_POSTS = {
   "posts": [
     {
       "id": "rethinking-startup-funding-north-africa",
@@ -558,4 +558,4 @@
       ]
     }
   ]
-}
+};

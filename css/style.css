@@ -21,7 +21,12 @@ body {
   background: #ffffff;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+.footer { margin-top: auto; }
 
 .container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 
@@ -80,6 +85,7 @@ a:hover { text-decoration: underline; }
   font-size: 0.93rem;
 }
 .nav-links a:not(.btn):hover { color: var(--accent); text-decoration: none; }
+.nav-links a.active { color: var(--accent); font-weight: 600; }
 
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; }
 .nav-toggle span {
@@ -339,6 +345,49 @@ a:hover { text-decoration: underline; }
   font-size: 0.92rem;
   font-weight: 600;
 }
+
+.post-full { margin-top: 16px; }
+
+.post-full summary {
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--accent);
+  list-style-position: inside;
+}
+
+.post-full summary:hover { text-decoration: underline; }
+.post-full[open] summary { margin-bottom: 8px; }
+
+.post-article {
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+  padding-top: 4px;
+}
+
+.post-h2 { font-size: 1.1rem; font-weight: 700; margin-top: 24px; }
+.post-h3 { font-size: 0.98rem; font-weight: 700; margin-top: 20px; }
+
+.post-list {
+  margin-top: 10px;
+  padding-left: 22px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.post-list li { margin-bottom: 4px; }
+
+.post-quote {
+  margin-top: 14px;
+  padding: 10px 18px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.post-hr { border: none; border-top: 1px solid var(--line); margin: 22px 0 6px; }
 
 .blog-loading { color: var(--ink-faint); }
 
