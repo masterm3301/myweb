@@ -10,7 +10,7 @@
         <a href="skills.html">Skills</a>
         <a href="writing.html">Writing</a>
         <a href="contact.html">Contact</a>
-        <a href="Othman_El_Majid_CV.pdf" class="btn btn-small" download>Download CV</a>
+        <a href="contact.html" class="btn btn-small">Get in Touch</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>

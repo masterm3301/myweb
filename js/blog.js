@@ -24,7 +24,7 @@ try {
             <div class="post-article">${p.body.map(block).join('')}</div>
           </details>` : ''}
         <div class="tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
-        ${p.type === 'article' ? `<a class="post-link" href="${p.link}" target="_blank" rel="noopener">Originally published on LinkedIn ↗</a>` : ''}
+        ${p.type === 'article' && p.link ? `<a class="post-link" href="${p.link}" target="_blank" rel="noopener">Originally published on LinkedIn ↗</a>` : ''}
       </article>`)
     .join('');
 } catch (e) {
