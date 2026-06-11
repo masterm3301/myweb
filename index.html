@@ -21,6 +21,7 @@
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
+        <a href="#writing">Writing</a>
         <a href="#contact">Contact</a>
         <a href="Othman_El_Majid_CV.pdf" class="btn btn-small" download>Download CV</a>
       </nav>
@@ -422,8 +423,19 @@
     </div>
   </section>
 
+  <!-- ============ WRITING / BLOG ============ -->
+  <section class="section" id="writing">
+    <div class="container">
+      <h2 class="section-title">Writing</h2>
+      <p class="section-sub">Essays and notes on startups, funding, and building things — originally published on LinkedIn.</p>
+      <div class="blog-grid" id="blogGrid">
+        <p class="blog-loading">Loading posts…</p>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ CONTACT ============ -->
-  <section class="section" id="contact">
+  <section class="section section-alt" id="contact">
     <div class="container contact-box">
       <h2 class="section-title">Let's Work Together</h2>
       <p class="section-sub">
@@ -449,6 +461,30 @@
     const links = document.getElementById('navLinks');
     toggle.addEventListener('click', () => links.classList.toggle('open'));
     links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+    // Render blog posts from blog/posts.json
+    fetch('blog/posts.json')
+      .then(res => res.json())
+      .then(({ posts }) => {
+        const grid = document.getElementById('blogGrid');
+        const fmt = d => new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        grid.innerHTML = posts
+          .sort((a, b) => b.date.localeCompare(a.date))
+          .map(p => `
+            <article class="post">
+              <span class="post-meta">${fmt(p.date)} · ${p.source}</span>
+              <h3 class="post-title">${p.type === 'article' ? `<a href="${p.link}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</h3>
+              ${p.excerpt ? `<p class="post-body">${p.excerpt}</p>` : ''}
+              ${p.content.map(par => `<p class="post-body">${par}</p>`).join('')}
+              <div class="tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
+              ${p.type === 'article' ? `<a class="post-link" href="${p.link}" target="_blank" rel="noopener">Read the full article →</a>` : ''}
+            </article>`)
+          .join('');
+      })
+      .catch(() => {
+        document.getElementById('blogGrid').innerHTML =
+          '<p class="blog-loading">Posts couldn\'t be loaded. Read my writing on <a href="https://linkedin.com/in/othmaneelmajid" target="_blank" rel="noopener">LinkedIn</a>.</p>';
+      });
   </script>
 </body>
 </html>

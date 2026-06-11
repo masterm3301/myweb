@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "id": "rethinking-startup-funding-north-africa",
+      "type": "article",
+      "title": "Rethinking Startup Funding in Morocco & North Africa",
+      "date": "2026-04-27",
+      "source": "LinkedIn Article",
+      "link": "https://www.linkedin.com/pulse/rethinking-startup-funding-north-africa-othman-el-majid-8a8ke/",
+      "tags": ["Startups", "Funding", "North Africa"],
+      "excerpt": "A customized seven-stage funding model tailored to Morocco and North Africa's startup ecosystem. Rather than directly adopting Western funding structures, success depends less on late-stage funding and more on strengthening our early stages — helping more startups reach product-market fit before scaling.",
+      "content": []
+    },
+    {
+      "id": "a-champion",
+      "type": "article",
+      "title": "A Champion",
+      "date": "2026-03-14",
+      "source": "LinkedIn Article",
+      "link": "https://www.linkedin.com/pulse/champion-othman-el-majid-mcxfe/",
+      "tags": ["Inspiration", "Morocco", "Perseverance"],
+      "excerpt": "The story of Nora, a Moroccan international beach volleyball player and African champion — four international gold medals earned against negativity, injury, and zero financial support. A real-life sports film, told from an event hosted by Accelab Morocco.",
+      "content": []
+    },
+    {
+      "id": "discipline-in-the-little-things",
+      "type": "note",
+      "title": "Discipline in the Little Things",
+      "date": "2026-05-10",
+      "source": "LinkedIn Post",
+      "link": "https://www.linkedin.com/in/othmaneelmajid",
+      "tags": ["Warren Buffett", "Discipline", "Startups", "Investing"],
+      "excerpt": "",
+      "content": [
+        "“If you’re not disciplined in the little things, you won’t be disciplined in the big things.” — Warren Buffett",
+        "Most people think success comes from one brilliant idea or a massive breakthrough. Buffett built an empire by doing the opposite: mastering the boring, daily stuff.",
+        "He understood probability and risk. The formula looks like this: Expected Value = (probability of gain × amount gained) − (probability of loss × amount lost).",
+        "Easy → the goal is to avoid bets when the expected value is negative. So for every $10 bet, you can expect to lose practically all of it. The negative expected value makes it a horrible bet.",
+        "You can take this a step further and consider the opportunity cost of betting on numerous losing propositions instead of winning propositions over time. And that’s why Buffett is richer than all of us.",
+        "The goal of investing is to avoid permanent losses and bet when the odds are in your favor.",
+        "“Price is what you pay. Value is what you get.” — Warren Buffett"
+      ]
+    },
+    {
+      "id": "5-key-points-early-stage-vc",
+      "type": "note",
+      "title": "5 Key Points from an Early-Stage Venture Capital",
+      "date": "2025-11-20",
+      "source": "LinkedIn Post",
+      "link": "https://www.linkedin.com/in/othmaneelmajid",
+      "tags": ["Venture Capital", "Startups", "Founders"],
+      "excerpt": "",
+      "content": [
+        "➤ Investors at early stage invest in people. It’s not just about the idea — VCs back founders they believe in. Passion, vision, and resilience often matter more than the product itself in the early days.",
+        "➤ Love the problem. Yes, love the problem, not your solution — that’s what VCs want you to focus on. Personally I don’t agree with this. I love my solutions 🙂",
+        "➤ Investors like to back something they can touch. While tech startups dominate conversations, they mentioned how one of their favorite investments was a bread 🍞 production company. Sometimes, the best opportunities are in tangible projects that you can touch.",
+        "➤ Startups beget startups. Ambitious founders often go on to create new ventures. A friend of mine, who was part of a startup, recently launched an impressive new project — further proof of how innovation fuels itself.",
+        "➤ Kindness can manifest into your surroundings. ↳ Let this one speak for itself."
+      ]
+    },
+    {
+      "id": "perseverance-and-staying-afloat",
+      "type": "note",
+      "title": "Perseverance and Staying Afloat",
+      "date": "2025-06-15",
+      "source": "LinkedIn Post",
+      "link": "https://www.linkedin.com/in/othmaneelmajid",
+      "tags": ["Startups", "MENA", "Funding", "Lessons"],
+      "excerpt": "",
+      "content": [
+        "Recently, I had the honor of attending a session by Dr. Ayman Ismail, where he shared his insights into the experiences of startups in MENA and how to build scalable ventures in our region.",
+        "One particular case surprised me personally because I follow a similar approach in my own thinking. I asked Dr. Ayman a simple question: why didn’t the founder take investments to keep going?",
+        "His response was that the founder wasn’t satisfied with the terms offered by investors and kept holding out for a better deal. Unfortunately, no one was willing to take that big of a risk, and the startup began to sink.",
+        "Maybe in some cases, accepting what’s offered — even if it’s less than ideal — can provide the lifeline needed to extend the journey long enough to find success. Perhaps, had the founder taken that investment, the company might have become a unicorn.",
+        "This insight deeply resonated with me and reminded me that sometimes, perseverance and staying afloat are the best strategies we can adopt.",
+        "Thank you, STARTGATE, for hosting such an inspiring session, and Dr. Ayman Ismail for sharing your experiences and lessons with us!"
+      ]
+    }
+  ]
+}
